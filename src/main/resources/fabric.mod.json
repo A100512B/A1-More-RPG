@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "morerpg",
+  "version": "${version}",
+  "name": "A1-more-rpg",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/A100512B/A1-more-rpg"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.morerpg.A1MoreRPG"
+    ],
+    "client": [
+      "net.morerpg.client.A1MoreRPGClient"
+    ]
+  },
+  "mixins": [
+    "morerpg.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "loom.injected_interfaces": {
+    }
+  }
+}

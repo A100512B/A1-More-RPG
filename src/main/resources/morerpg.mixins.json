@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.morerpg.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CauldronBehaviorMixin",
+    "EndermanEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

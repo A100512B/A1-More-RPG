@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "morerpg:item/netherite_bucket_with_salmon"
+  }
+}
