@@ -4,8 +4,10 @@
   "package": "net.morerpg.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "BucketableMixin",
     "CauldronBehaviorMixin",
-    "EndermanEntityMixin"
+    "EndermanEntityMixin",
+    "EntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

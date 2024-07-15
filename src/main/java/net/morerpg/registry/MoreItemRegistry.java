@@ -71,7 +71,7 @@ public class MoreItemRegistry {
             new Pair<>("netherite_bucket_with_salmon", NETHERITE_BUCKET_WITH_SALMON),
             new Pair<>("netherite_bucket_with_tadpole", NETHERITE_BUCKET_WITH_TADPOLE),
             new Pair<>("netherite_bucket_with_tropical_fish", NETHERITE_BUCKET_WITH_TROPICAL_FISH),
-            new Pair<>("blazing_blood_ingot", BLAZING_GOLD_INGOT)
+            new Pair<>("blazing_gold_ingot", BLAZING_GOLD_INGOT)
     };
 
     @SuppressWarnings("unchecked")
